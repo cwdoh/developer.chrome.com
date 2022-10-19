@@ -17,7 +17,7 @@ draft: true
 
 *이 게시글의 번역에는 [도창욱](https://developers.google.com/community/experts/directory/profile/profile-changwook-doh)님이 참여하셨으며, [조은](https://developers.google.com/community/experts/directory/profile/profile-eun-cho)님과 [최원영]](https://www.linkedin.com/in/toruchoi)님이 리뷰를 맡아 주셨습니다.*
 
-{% Partial 'devtools/banner.md' %}
+{% include 'partials/devtools/ko/banner.md' %}
 
 {% YouTube id='5gBqTXctxO8' %}
 
@@ -147,7 +147,7 @@ Chromium bug: [1347390](https://crbug.com/1347390)
 
 ## Performance Insights 패널의 LCP 타이밍 분석 {: #insights }
 
-**Performance Insights** 패널은 이제 [최대 콘텐츠풀 페인트(Largest Containful Paint, LCP)](/docs/devtools/performance-insights/#)의 [타이밍 분석](https://web.dev/optimize-lcp/#lcp-breakdown)을 표시합니다. 이러한 타이밍 정보를 사용하여 LCP 성능을 개선할 수 있는 방법을 확인할 수 있습니다.
+**Performance Insights** 패널은 이제 [최대 콘텐츠풀 페인트(Largest Containful Paint, LCP)](/docs/devtools/performance-insights/#)의 [타이밍 분석](web.dev/optimize-lcp/#lcp-breakdown)을 표시합니다. 이러한 타이밍 정보를 사용하여 LCP 성능을 개선할 수 있는 방법을 확인할 수 있습니다.
 
 {% Img src="image/dPDCek3EhZgLQPGtEG3y0fTn4v82/hU6RmoRjFskL8P2ZAB9l.png", alt="Performance Insights 패널의 LCP 타이밍 분석", width="800", height="523" %}
 
@@ -180,5 +180,5 @@ Chromium bug: [1351383](https://crbug.com/1351383)
 {# https://chrome-internal.googlesource.com/devtools/devtools-internal/+/fe7254c9a51f964b2a106becc1b22f38033b9f50 #}
 
 
-{% Partial 'devtools/reach-out.md' %}
-{% Partial 'devtools/whats-new.md' %}
+{% include 'partials/devtools/ko/reach-out.md' %}
+{% include 'partials/devtools/ko/whats-new.md' %}
